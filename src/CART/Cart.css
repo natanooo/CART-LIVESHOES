@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Dosis", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.Items{
+    display: flex;
+    flex-direction: row;
+    height: 135px;
+    width: 649px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px 3px #00000040;
+    margin-top: 31px;
+}
+.ImageItens{
+    height: 90px;
+    margin-left: 23px;
+    margin-top: 33px;
+}
+.descrition{
+    width: 193px;
+    margin-left: 48px;
+    margin-top: 33px;
+}
+.descrition h1{
+    font-size: 16px;
+}
+.descrition h2{
+    font-size: 14px;
+    margin-top: 2px;
+}
+.price{
+    margin-top: 55px;
+    margin-left: 166px;
+}
+.price h1{
+    font-size: 20px;
+}
+.price input{
+    width: 43px;
+    height: 16px;
+    border-radius: 0px;
+    border: 0.1px solid;
+    text-align: center;
+}
+.price input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.button-plus{
+    width: 21px;
+    height: 18px;
+    background-color: transparent;
+    border: 0.1px solid;
+    border-radius: 0px 4px 4px 0px;
+
+}
+.button-minus{
+    width: 21px;
+    height: 18px;
+    background-color: transparent;
+    border: 0.1px solid;
+    border-radius: 4px 0px 0px 4px;
+}
+.button-minus:hover , .button-plus:hover{
+    background: #D9D9D9;
+}
+.QuantItem{
+    margin-top: 25px;
+    display: flex;
+}
+.CartName{
+    display: flex;
+    direction: initial;
+    align-items: flex-end;
+    margin-top: 25px;
+}
+.CartName h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #12664F;
+}
+.CartName img{
+    height: 45px;
+    margin-right: 16px;
+}
+.Checkout{
+    width: 584px;
+    height: 57px;
+    border-radius: 6px;
+    background: #12664F;
+    border: none;
+    font-size: 32px;
+    color: white;
+    transition: 0.4s;
+    margin-top: 38px;
+    margin-bottom: 40px;
+}
+.Checkout:hover{
+    width: 584px;
+    height: 57px;
+    border-radius: 6px;
+    background: white;
+    border: none;
+    font-size: 32px;
+    color: #12664F;
+    margin-top: 38px;
+    transition: 0.4s;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    margin-bottom: 40px;
+}
+
+.button{
+    display: flex;
+    width: 649px;
+    justify-content: center;
+}
+.AnnounceImg{
+    margin: 22px;
+    margin-top: 95px;
+    width: 219px;
+    height: 426px;
+}
+@media screen and (max-width: 1186px) {
+    .AnnounceLink {
+      display: none;
+    }
+  }
+
